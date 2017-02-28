@@ -1,0 +1,33 @@
+#ifndef __MDIO_BITBANG_H
+#define __MDIO_BITBANG_H
+ 
+#include <board.h>
+#include <pio.h>
+ 
+ 
+#define PKT_PayloadMaxLen	2
+
+ 
+typedef struct
+{
+    uint8_t   vPortAddr;
+    uint8_t   vDevAddr;
+    uint16_t  vOffset;
+    uint16_t  vDataCount;
+    uint16_t  aData[2];
+} PKT_MDIOM_T;
+
+
+uint16_t mdiobb_cmd_addr( uint16_t phy, uint32_t addr);
+uint16_t mdiobb_read(uint16_t phy, uint32_t reg);
+uint16_t mdiobb_write(uint16_t phy, uint32_t reg, uint16_t val);
+uint16_t mdiobb_reset(void);
+ uint8_t mdiobb_get_bit(void);
+
+#endif
+
+
+
+
+
+

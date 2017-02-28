@@ -1,0 +1,10 @@
+.\objects\pwmc.o: at91lib\peripherals\pwmc\pwmc.c
+.\objects\pwmc.o: at91lib\peripherals\pwmc\pwmc.h
+.\objects\pwmc.o: .\at91lib\boards\at91sam7s-ek\board.h
+.\objects\pwmc.o: C:\Keil_v5\ARM\Inc\Atmel\SAM7S\AT91SAM7S256.H
+.\objects\pwmc.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\pwmc.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\assert.h
+.\objects\pwmc.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\pwmc.o: .\at91lib\utility\trace.h
+.\objects\pwmc.o: .\at91lib\peripherals\dbgu\dbgu.h
+.\objects\pwmc.o: .\at91lib\peripherals\pio\pio.h

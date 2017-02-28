@@ -1,0 +1,6 @@
+-c --cpu ARM7TDMI -g -O0 --split_sections -I ..\USB_MDIO -I .\at91lib\boards\at91sam7s-ek -I .\main -I .\at91lib\peripherals\aic -I .\at91lib\peripherals\dbgu -I .\at91lib\peripherals\pio -I .\at91lib\peripherals\pit -I .\at91lib\peripherals\pmc -I .\at91lib\peripherals\tc -I .\at91lib\peripherals\usart -I .\at91lib\usb\common\cdc -I .\at91lib\usb\common\core -I .\at91lib\usb\device\cdc-serial -I .\at91lib\usb\device\core -I .\at91lib\utility -I .\mdio -I .\at91lib\peripherals\pwmc -I .\at91lib\peripherals\spi
+-IC:\Keil_v5\ARM\RV31\INC
+-IC:\Keil_v5\ARM\CMSIS\Include
+-IC:\Keil_v5\ARM\Inc\Atmel\SAM7S
+-D__UVISION_VERSION="521" -Dat91sam7s256 -DNOFPUT -DNOASSERT
+-o .\objects\pit.o --omf_browse .\objects\pit.crf --depend .\objects\pit.d --feedback ".\Objects\USb_MDIO.fed" "at91lib\peripherals\pit\pit.c"

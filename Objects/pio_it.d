@@ -1,0 +1,11 @@
+.\objects\pio_it.o: at91lib\peripherals\pio\pio_it.c
+.\objects\pio_it.o: at91lib\peripherals\pio\pio_it.h
+.\objects\pio_it.o: at91lib\peripherals\pio\pio.h
+.\objects\pio_it.o: .\at91lib\boards\at91sam7s-ek\board.h
+.\objects\pio_it.o: C:\Keil_v5\ARM\Inc\Atmel\SAM7S\AT91SAM7S256.H
+.\objects\pio_it.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\pio_it.o: .\at91lib\peripherals\aic\aic.h
+.\objects\pio_it.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\assert.h
+.\objects\pio_it.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\pio_it.o: .\at91lib\utility\trace.h
+.\objects\pio_it.o: .\at91lib\peripherals\dbgu\dbgu.h

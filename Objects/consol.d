@@ -1,0 +1,12 @@
+.\objects\consol.o: main\consol.c
+.\objects\consol.o: main\config.h
+.\objects\consol.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\consol.o: .\at91lib\boards\at91sam7s-ek\board.h
+.\objects\consol.o: C:\Keil_v5\ARM\Inc\Atmel\SAM7S\AT91SAM7S256.H
+.\objects\consol.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\consol.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\consol.o: main\microrl.h
+.\objects\consol.o: .\main\lcd_siem_s65.h
+.\objects\consol.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\consol.o: .\mdio\mdio_drv.h
+.\objects\consol.o: .\at91lib\peripherals\pio\pio.h

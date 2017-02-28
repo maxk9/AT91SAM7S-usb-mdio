@@ -1,0 +1,13 @@
+.\objects\usbd_udp.o: at91lib\usb\device\core\USBD_UDP.c
+.\objects\usbd_udp.o: at91lib\usb\device\core\USBD.h
+.\objects\usbd_udp.o: .\at91lib\usb\common\core\USBEndpointDescriptor.h
+.\objects\usbd_udp.o: .\at91lib\usb\common\core\USBGenericRequest.h
+.\objects\usbd_udp.o: at91lib\usb\device\core\USBDCallbacks.h
+.\objects\usbd_udp.o: .\at91lib\boards\at91sam7s-ek\board.h
+.\objects\usbd_udp.o: C:\Keil_v5\ARM\Inc\Atmel\SAM7S\AT91SAM7S256.H
+.\objects\usbd_udp.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\usbd_udp.o: .\at91lib\peripherals\pio\pio.h
+.\objects\usbd_udp.o: .\at91lib\utility\trace.h
+.\objects\usbd_udp.o: .\at91lib\peripherals\dbgu\dbgu.h
+.\objects\usbd_udp.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\usbd_udp.o: .\at91lib\utility\led.h

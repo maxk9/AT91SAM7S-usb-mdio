@@ -1,0 +1,86 @@
+;#<FEEDBACK># ARM Linker, 5060300: Last Updated: Mon Dec 12 15:01:01 2016
+;VERSION 0.2
+;FILE aic.o
+AIC_DisableIT <= USED 0
+;FILE board_lowlevel.o
+;FILE board_memories.o
+BOARD_RemapFlash <= USED 0
+BOARD_RemapRam <= USED 0
+;FILE cdcdserialdriver.o
+CDCDSerialDriver_GetSerialState <= USED 0
+CDCDSerialDriver_SetSerialState <= USED 0
+;FILE cdclinecoding.o
+;FILE cdcsetcontrollinestaterequest.o
+;FILE consol.o
+;FILE dbgu.o
+DBGU_GetChar <= USED 0
+DBGU_IsRxReady <= USED 0
+;FILE lcd_siem_s65.o
+do_paint_area <= USED 0
+lcd_wr_com <= USED 0
+lcd_wr_dat <= USED 0
+;FILE led.o
+;FILE main.o
+;FILE mdio_drv.o
+mdiobb_reset <= USED 0
+mdiobb_write <= USED 0
+;FILE microrl.o
+;FILE pio.o
+PIO_GetISR <= USED 0
+;FILE pio_it.o
+PIO_ConfigureIt <= USED 0
+PIO_DisableIt <= USED 0
+PIO_EnableIt <= USED 0
+PIO_InitializeInterrupts <= USED 0
+;FILE pit.o
+PIT_DisableIT <= USED 0
+PIT_Enable <= USED 0
+PIT_EnableIT <= USED 0
+PIT_GetMode <= USED 0
+PIT_GetPIIR <= USED 0
+PIT_GetPIVR <= USED 0
+PIT_GetStatus <= USED 0
+PIT_Init <= USED 0
+PIT_SetPIV <= USED 0
+;FILE pmc.o
+PMC_CPUInIdleMode <= USED 0
+PMC_DisableAllPeripherals <= USED 0
+PMC_DisablePeripheral <= USED 0
+PMC_DisableProcessorClock <= USED 0
+PMC_EnableAllPeripherals <= USED 0
+PMC_EnablePeripheral <= USED 0
+PMC_IsAllPeriphEnabled <= USED 0
+PMC_IsPeriphEnabled <= USED 0
+;FILE pwmc.o
+PWMC_DisableChannel <= USED 0
+PWMC_DisableChannelIt <= USED 0
+PWMC_EnableChannelIt <= USED 0
+;FILE retarget.o
+_ttywrch <= USED 0
+;FILE spid.o
+SPID_Handler <= USED 0
+SPID_IsBusy <= USED 0
+SPID_SendCommand <= USED 0
+;FILE tc.o
+TC_Stop <= USED 0
+;FILE usbconfigurationdescriptor.o
+USBConfigurationDescriptor_GetNumInterfaces <= USED 0
+;FILE usbd_udp.o
+USBD_Disconnect <= USED 0
+USBD_RemoteWakeUp <= USED 0
+;FILE usbdcallbacks_initialized.o
+;FILE usbdcallbacks_reset.o
+;FILE usbddriver.o
+USBDDriver_IsRemoteWakeUpEnabled <= USED 0
+;FILE usbddrivercb_cfgchanged.o
+;FILE usbddrivercb_ifsettingchanged.o
+;FILE usbendpointdescriptor.o
+;FILE usbfeaturerequest.o
+USBFeatureRequest_GetTestSelector <= USED 0
+;FILE usbgenericdescriptor.o
+;FILE usbgenericrequest.o
+USBGenericRequest_GetType <= USED 0
+;FILE usbgetdescriptorrequest.o
+;FILE usbinterfacerequest.o
+;FILE usbsetaddressrequest.o
+;FILE usbsetconfigurationrequest.o

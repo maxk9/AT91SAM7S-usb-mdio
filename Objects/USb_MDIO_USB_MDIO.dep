@@ -1,0 +1,331 @@
+Dependencies for Project 'USb_MDIO', Target 'USB_MDIO': (DO NOT MODIFY !)
+F (.\SAM7.s)(0x5821800A)(--cpu ARM7TDMI -g-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\Inc\Atmel\SAM7S--pd "__UVISION_VERSION SETA 521"--list .\listings\sam7.lst --xref -o .\objects\sam7.o --depend .\objects\sam7.d)
+F (.\README.txt)(0x582937EC)()
+F (.\main\main.c)(0x5847B8DE)(-c --cpu ARM7TDMI -g -O0 --split_sections -I ..\USB_MDIO -I .\at91lib\boards\at91sam7s-ek -I .\main -I .\at91lib\peripherals\aic -I .\at91lib\peripherals\dbgu -I .\at91lib\peripherals\pio -I .\at91lib\peripherals\pit -I .\at91lib\peripherals\pmc -I .\at91lib\peripherals\tc -I .\at91lib\peripherals\usart -I .\at91lib\usb\common\cdc -I .\at91lib\usb\common\core -I .\at91lib\usb\device\cdc-serial -I .\at91lib\usb\device\core -I .\at91lib\utility -I .\mdio -I .\at91lib\peripherals\pwmc -I .\at91lib\peripherals\spi-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\Inc\Atmel\SAM7S-D__UVISION_VERSION="521" -Dat91sam7s256 -DNOFPUT -DNOASSERT-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (.\at91lib\boards\at91sam7s-ek\board.h)(0x58357190)
+I (C:\Keil_v5\ARM\Inc\Atmel\SAM7S\AT91SAM7S256.H)(0x58256DB3)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E4C36)
+I (.\at91lib\peripherals\pio\pio.h)(0x4949FA66)
+I (.\at91lib\peripherals\pio\pio_it.h)(0x4949FA66)
+I (.\at91lib\peripherals\aic\aic.h)(0x5816FDBD)
+I (.\at91lib\peripherals\tc\tc.h)(0x4949FA66)
+I (.\at91lib\peripherals\usart\usart.h)(0x4949FA80)
+I (.\at91lib\utility\trace.h)(0x5816EDA7)
+I (.\at91lib\peripherals\dbgu\dbgu.h)(0x4949FA66)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x574E4C36)
+I (.\at91lib\utility\led.h)(0x4949FA66)
+I (.\at91lib\usb\device\cdc-serial\CDCDSerialDriver.h)(0x58170B58)
+I (.\at91lib\usb\common\core\USBGenericRequest.h)(0x4949FA80)
+I (.\at91lib\usb\device\core\USBD.h)(0x58214831)
+I (.\at91lib\usb\common\core\USBEndpointDescriptor.h)(0x4949FA80)
+I (.\at91lib\usb\device\cdc-serial\CDCDSerialDriverDescriptors.h)(0x5816EF65)
+I (.\at91lib\usb\device\core\USBDDriverDescriptors.h)(0x5816EF84)
+I (.\at91lib\usb\common\core\USBDeviceDescriptor.h)(0x4949FA80)
+I (.\at91lib\usb\common\core\USBConfigurationDescriptor.h)(0x4949FA80)
+I (.\at91lib\usb\common\core\USBGenericDescriptor.h)(0x4949FA80)
+I (.\at91lib\usb\common\core\USBInterfaceDescriptor.h)(0x4949FA80)
+I (.\at91lib\usb\common\core\USBDeviceQualifierDescriptor.h)(0x4949FA80)
+I (.\at91lib\peripherals\pmc\pmc.h)(0x4949FA66)
+I (.\mdio\drv_mdiom.h)(0x58184204)
+I (.\mdio\pkt_mdiom.h)(0x58452797)
+I (.\mdio\pkt_define.h)(0x5837E102)
+I (.\at91lib\peripherals\pwmc\pwmc.h)(0x4949FA32)
+I (.\at91lib\peripherals\spi\spid.h)(0x58242381)
+I (.\main\lcd_siem_s65.h)(0x58352009)
+I (main\microrl.h)(0x58353F10)
+I (main\config.h)(0x58353ED2)
+F (.\main\lcd_siem_s65.c)(0x584E2E55)(-c --cpu ARM7TDMI -g -O0 --split_sections -I ..\USB_MDIO -I .\at91lib\boards\at91sam7s-ek -I .\main -I .\at91lib\peripherals\aic -I .\at91lib\peripherals\dbgu -I .\at91lib\peripherals\pio -I .\at91lib\peripherals\pit -I .\at91lib\peripherals\pmc -I .\at91lib\peripherals\tc -I .\at91lib\peripherals\usart -I .\at91lib\usb\common\cdc -I .\at91lib\usb\common\core -I .\at91lib\usb\device\cdc-serial -I .\at91lib\usb\device\core -I .\at91lib\utility -I .\mdio -I .\at91lib\peripherals\pwmc -I .\at91lib\peripherals\spi-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\Inc\Atmel\SAM7S-D__UVISION_VERSION="521" -Dat91sam7s256 -DNOFPUT -DNOASSERT-o .\objects\lcd_siem_s65.o --omf_browse .\objects\lcd_siem_s65.crf --depend .\objects\lcd_siem_s65.d)
+I (.\at91lib\boards\at91sam7s-ek\board.h)(0x58357190)
+I (C:\Keil_v5\ARM\Inc\Atmel\SAM7S\AT91SAM7S256.H)(0x58256DB3)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E4C36)
+I (.\at91lib\peripherals\spi\spid.h)(0x58242381)
+I (.\at91lib\peripherals\pio\pio.h)(0x4949FA66)
+I (.\main\lcd_siem_s65.h)(0x58352009)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x574E4C36)
+F (.\main\consol.c)(0x584E593A)(-c --cpu ARM7TDMI -g -O0 --split_sections -I ..\USB_MDIO -I .\at91lib\boards\at91sam7s-ek -I .\main -I .\at91lib\peripherals\aic -I .\at91lib\peripherals\dbgu -I .\at91lib\peripherals\pio -I .\at91lib\peripherals\pit -I .\at91lib\peripherals\pmc -I .\at91lib\peripherals\tc -I .\at91lib\peripherals\usart -I .\at91lib\usb\common\cdc -I .\at91lib\usb\common\core -I .\at91lib\usb\device\cdc-serial -I .\at91lib\usb\device\core -I .\at91lib\utility -I .\mdio -I .\at91lib\peripherals\pwmc -I .\at91lib\peripherals\spi-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\Inc\Atmel\SAM7S-D__UVISION_VERSION="521" -Dat91sam7s256 -DNOFPUT -DNOASSERT-o .\objects\consol.o --omf_browse .\objects\consol.crf --depend .\objects\consol.d)
+I (main\config.h)(0x58353ED2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E4C36)
+I (.\at91lib\boards\at91sam7s-ek\board.h)(0x58357190)
+I (C:\Keil_v5\ARM\Inc\Atmel\SAM7S\AT91SAM7S256.H)(0x58256DB3)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x574E4C36)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x574E4C36)
+I (main\microrl.h)(0x58353F10)
+I (.\main\lcd_siem_s65.h)(0x58352009)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x574E4C36)
+I (.\mdio\mdio_drv.h)(0x584E24FC)
+I (.\at91lib\peripherals\pio\pio.h)(0x4949FA66)
+F (.\main\microrl.c)(0x584E2E92)(-c --cpu ARM7TDMI -g -O0 --split_sections -I ..\USB_MDIO -I .\at91lib\boards\at91sam7s-ek -I .\main -I .\at91lib\peripherals\aic -I .\at91lib\peripherals\dbgu -I .\at91lib\peripherals\pio -I .\at91lib\peripherals\pit -I .\at91lib\peripherals\pmc -I .\at91lib\peripherals\tc -I .\at91lib\peripherals\usart -I .\at91lib\usb\common\cdc -I .\at91lib\usb\common\core -I .\at91lib\usb\device\cdc-serial -I .\at91lib\usb\device\core -I .\at91lib\utility -I .\mdio -I .\at91lib\peripherals\pwmc -I .\at91lib\peripherals\spi-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\Inc\Atmel\SAM7S-D__UVISION_VERSION="521" -Dat91sam7s256 -DNOFPUT -DNOASSERT-o .\objects\microrl.o --omf_browse .\objects\microrl.crf --depend .\objects\microrl.d)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x574E4C36)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x574E4C36)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x574E4C36)
+I (main\microrl.h)(0x58353F10)
+I (main\config.h)(0x58353ED2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E4C36)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x574E4C36)
+F (.\at91lib\peripherals\aic\aic.c)(0x581FF912)(-c --cpu ARM7TDMI -g -O0 --split_sections -I ..\USB_MDIO -I .\at91lib\boards\at91sam7s-ek -I .\main -I .\at91lib\peripherals\aic -I .\at91lib\peripherals\dbgu -I .\at91lib\peripherals\pio -I .\at91lib\peripherals\pit -I .\at91lib\peripherals\pmc -I .\at91lib\peripherals\tc -I .\at91lib\peripherals\usart -I .\at91lib\usb\common\cdc -I .\at91lib\usb\common\core -I .\at91lib\usb\device\cdc-serial -I .\at91lib\usb\device\core -I .\at91lib\utility -I .\mdio -I .\at91lib\peripherals\pwmc -I .\at91lib\peripherals\spi-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\Inc\Atmel\SAM7S-D__UVISION_VERSION="521" -Dat91sam7s256 -DNOFPUT -DNOASSERT-o .\objects\aic.o --omf_browse .\objects\aic.crf --depend .\objects\aic.d)
+I (at91lib\peripherals\aic\aic.h)(0x5816FDBD)
+I (.\at91lib\boards\at91sam7s-ek\board.h)(0x58357190)
+I (C:\Keil_v5\ARM\Inc\Atmel\SAM7S\AT91SAM7S256.H)(0x58256DB3)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E4C36)
+F (.\at91lib\peripherals\dbgu\dbgu.c)(0x4949FA66)(-c --cpu ARM7TDMI -g -O0 --split_sections -I ..\USB_MDIO -I .\at91lib\boards\at91sam7s-ek -I .\main -I .\at91lib\peripherals\aic -I .\at91lib\peripherals\dbgu -I .\at91lib\peripherals\pio -I .\at91lib\peripherals\pit -I .\at91lib\peripherals\pmc -I .\at91lib\peripherals\tc -I .\at91lib\peripherals\usart -I .\at91lib\usb\common\cdc -I .\at91lib\usb\common\core -I .\at91lib\usb\device\cdc-serial -I .\at91lib\usb\device\core -I .\at91lib\utility -I .\mdio -I .\at91lib\peripherals\pwmc -I .\at91lib\peripherals\spi-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\Inc\Atmel\SAM7S-D__UVISION_VERSION="521" -Dat91sam7s256 -DNOFPUT -DNOASSERT-o .\objects\dbgu.o --omf_browse .\objects\dbgu.crf --depend .\objects\dbgu.d)
+I (at91lib\peripherals\dbgu\dbgu.h)(0x4949FA66)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x574E4C36)
+I (.\at91lib\boards\at91sam7s-ek\board.h)(0x58357190)
+I (C:\Keil_v5\ARM\Inc\Atmel\SAM7S\AT91SAM7S256.H)(0x58256DB3)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E4C36)
+F (.\at91lib\peripherals\pio\pio.c)(0x4949FA66)(-c --cpu ARM7TDMI -g -O0 --split_sections -I ..\USB_MDIO -I .\at91lib\boards\at91sam7s-ek -I .\main -I .\at91lib\peripherals\aic -I .\at91lib\peripherals\dbgu -I .\at91lib\peripherals\pio -I .\at91lib\peripherals\pit -I .\at91lib\peripherals\pmc -I .\at91lib\peripherals\tc -I .\at91lib\peripherals\usart -I .\at91lib\usb\common\cdc -I .\at91lib\usb\common\core -I .\at91lib\usb\device\cdc-serial -I .\at91lib\usb\device\core -I .\at91lib\utility -I .\mdio -I .\at91lib\peripherals\pwmc -I .\at91lib\peripherals\spi-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\Inc\Atmel\SAM7S-D__UVISION_VERSION="521" -Dat91sam7s256 -DNOFPUT -DNOASSERT-o .\objects\pio.o --omf_browse .\objects\pio.crf --depend .\objects\pio.d)
+I (at91lib\peripherals\pio\pio.h)(0x4949FA66)
+I (.\at91lib\boards\at91sam7s-ek\board.h)(0x58357190)
+I (C:\Keil_v5\ARM\Inc\Atmel\SAM7S\AT91SAM7S256.H)(0x58256DB3)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E4C36)
+F (.\at91lib\peripherals\pio\pio_it.c)(0x582003B8)(-c --cpu ARM7TDMI -g -O0 --split_sections -I ..\USB_MDIO -I .\at91lib\boards\at91sam7s-ek -I .\main -I .\at91lib\peripherals\aic -I .\at91lib\peripherals\dbgu -I .\at91lib\peripherals\pio -I .\at91lib\peripherals\pit -I .\at91lib\peripherals\pmc -I .\at91lib\peripherals\tc -I .\at91lib\peripherals\usart -I .\at91lib\usb\common\cdc -I .\at91lib\usb\common\core -I .\at91lib\usb\device\cdc-serial -I .\at91lib\usb\device\core -I .\at91lib\utility -I .\mdio -I .\at91lib\peripherals\pwmc -I .\at91lib\peripherals\spi-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\Inc\Atmel\SAM7S-D__UVISION_VERSION="521" -Dat91sam7s256 -DNOFPUT -DNOASSERT-o .\objects\pio_it.o --omf_browse .\objects\pio_it.crf --depend .\objects\pio_it.d)
+I (at91lib\peripherals\pio\pio_it.h)(0x4949FA66)
+I (at91lib\peripherals\pio\pio.h)(0x4949FA66)
+I (.\at91lib\boards\at91sam7s-ek\board.h)(0x58357190)
+I (C:\Keil_v5\ARM\Inc\Atmel\SAM7S\AT91SAM7S256.H)(0x58256DB3)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E4C36)
+I (.\at91lib\peripherals\aic\aic.h)(0x5816FDBD)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5816F7E1)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x574E4C36)
+I (.\at91lib\utility\trace.h)(0x5816EDA7)
+I (.\at91lib\peripherals\dbgu\dbgu.h)(0x4949FA66)
+F (.\at91lib\peripherals\pit\pit.c)(0x4949FA66)(-c --cpu ARM7TDMI -g -O0 --split_sections -I ..\USB_MDIO -I .\at91lib\boards\at91sam7s-ek -I .\main -I .\at91lib\peripherals\aic -I .\at91lib\peripherals\dbgu -I .\at91lib\peripherals\pio -I .\at91lib\peripherals\pit -I .\at91lib\peripherals\pmc -I .\at91lib\peripherals\tc -I .\at91lib\peripherals\usart -I .\at91lib\usb\common\cdc -I .\at91lib\usb\common\core -I .\at91lib\usb\device\cdc-serial -I .\at91lib\usb\device\core -I .\at91lib\utility -I .\mdio -I .\at91lib\peripherals\pwmc -I .\at91lib\peripherals\spi-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\Inc\Atmel\SAM7S-D__UVISION_VERSION="521" -Dat91sam7s256 -DNOFPUT -DNOASSERT-o .\objects\pit.o --omf_browse .\objects\pit.crf --depend .\objects\pit.d)
+I (at91lib\peripherals\pit\pit.h)(0x4949FA66)
+I (.\at91lib\boards\at91sam7s-ek\board.h)(0x58357190)
+I (C:\Keil_v5\ARM\Inc\Atmel\SAM7S\AT91SAM7S256.H)(0x58256DB3)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E4C36)
+F (.\at91lib\peripherals\pmc\pmc.c)(0x5816EDA7)(-c --cpu ARM7TDMI -g -O0 --split_sections -I ..\USB_MDIO -I .\at91lib\boards\at91sam7s-ek -I .\main -I .\at91lib\peripherals\aic -I .\at91lib\peripherals\dbgu -I .\at91lib\peripherals\pio -I .\at91lib\peripherals\pit -I .\at91lib\peripherals\pmc -I .\at91lib\peripherals\tc -I .\at91lib\peripherals\usart -I .\at91lib\usb\common\cdc -I .\at91lib\usb\common\core -I .\at91lib\usb\device\cdc-serial -I .\at91lib\usb\device\core -I .\at91lib\utility -I .\mdio -I .\at91lib\peripherals\pwmc -I .\at91lib\peripherals\spi-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\Inc\Atmel\SAM7S-D__UVISION_VERSION="521" -Dat91sam7s256 -DNOFPUT -DNOASSERT-o .\objects\pmc.o --omf_browse .\objects\pmc.crf --depend .\objects\pmc.d)
+I (at91lib\peripherals\pmc\pmc.h)(0x4949FA66)
+I (.\at91lib\boards\at91sam7s-ek\board.h)(0x58357190)
+I (C:\Keil_v5\ARM\Inc\Atmel\SAM7S\AT91SAM7S256.H)(0x58256DB3)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E4C36)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5816F7E1)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x574E4C36)
+I (.\at91lib\utility\trace.h)(0x5816EDA7)
+I (.\at91lib\peripherals\dbgu\dbgu.h)(0x4949FA66)
+I (.\at91lib\peripherals\pio\pio.h)(0x4949FA66)
+F (.\at91lib\peripherals\tc\tc.c)(0x4949FA66)(-c --cpu ARM7TDMI -g -O0 --split_sections -I ..\USB_MDIO -I .\at91lib\boards\at91sam7s-ek -I .\main -I .\at91lib\peripherals\aic -I .\at91lib\peripherals\dbgu -I .\at91lib\peripherals\pio -I .\at91lib\peripherals\pit -I .\at91lib\peripherals\pmc -I .\at91lib\peripherals\tc -I .\at91lib\peripherals\usart -I .\at91lib\usb\common\cdc -I .\at91lib\usb\common\core -I .\at91lib\usb\device\cdc-serial -I .\at91lib\usb\device\core -I .\at91lib\utility -I .\mdio -I .\at91lib\peripherals\pwmc -I .\at91lib\peripherals\spi-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\Inc\Atmel\SAM7S-D__UVISION_VERSION="521" -Dat91sam7s256 -DNOFPUT -DNOASSERT-o .\objects\tc.o --omf_browse .\objects\tc.crf --depend .\objects\tc.d)
+I (at91lib\peripherals\tc\tc.h)(0x4949FA66)
+I (.\at91lib\boards\at91sam7s-ek\board.h)(0x58357190)
+I (C:\Keil_v5\ARM\Inc\Atmel\SAM7S\AT91SAM7S256.H)(0x58256DB3)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E4C36)
+F (.\at91lib\utility\led.c)(0x5816EDA7)(-c --cpu ARM7TDMI -g -O0 --split_sections -I ..\USB_MDIO -I .\at91lib\boards\at91sam7s-ek -I .\main -I .\at91lib\peripherals\aic -I .\at91lib\peripherals\dbgu -I .\at91lib\peripherals\pio -I .\at91lib\peripherals\pit -I .\at91lib\peripherals\pmc -I .\at91lib\peripherals\tc -I .\at91lib\peripherals\usart -I .\at91lib\usb\common\cdc -I .\at91lib\usb\common\core -I .\at91lib\usb\device\cdc-serial -I .\at91lib\usb\device\core -I .\at91lib\utility -I .\mdio -I .\at91lib\peripherals\pwmc -I .\at91lib\peripherals\spi-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\Inc\Atmel\SAM7S-D__UVISION_VERSION="521" -Dat91sam7s256 -DNOFPUT -DNOASSERT-o .\objects\led.o --omf_browse .\objects\led.crf --depend .\objects\led.d)
+I (at91lib\utility\led.h)(0x4949FA66)
+I (.\at91lib\boards\at91sam7s-ek\board.h)(0x58357190)
+I (C:\Keil_v5\ARM\Inc\Atmel\SAM7S\AT91SAM7S256.H)(0x58256DB3)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E4C36)
+I (.\at91lib\peripherals\pio\pio.h)(0x4949FA66)
+F (.\at91lib\utility\retarget.c)(0x5816F8EF)(-c --cpu ARM7TDMI -g -O0 --split_sections -I ..\USB_MDIO -I .\at91lib\boards\at91sam7s-ek -I .\main -I .\at91lib\peripherals\aic -I .\at91lib\peripherals\dbgu -I .\at91lib\peripherals\pio -I .\at91lib\peripherals\pit -I .\at91lib\peripherals\pmc -I .\at91lib\peripherals\tc -I .\at91lib\peripherals\usart -I .\at91lib\usb\common\cdc -I .\at91lib\usb\common\core -I .\at91lib\usb\device\cdc-serial -I .\at91lib\usb\device\core -I .\at91lib\utility -I .\mdio -I .\at91lib\peripherals\pwmc -I .\at91lib\peripherals\spi-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\Inc\Atmel\SAM7S-D__UVISION_VERSION="521" -Dat91sam7s256 -DNOFPUT -DNOASSERT-o .\objects\retarget.o --omf_browse .\objects\retarget.crf --depend .\objects\retarget.d)
+I (.\at91lib\peripherals\dbgu\dbgu.h)(0x4949FA66)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x574E4C36)
+F (.\at91lib\boards\at91sam7s-ek\board_lowlevel.c)(0x58218009)(-c --cpu ARM7TDMI -g -O0 --split_sections -I ..\USB_MDIO -I .\at91lib\boards\at91sam7s-ek -I .\main -I .\at91lib\peripherals\aic -I .\at91lib\peripherals\dbgu -I .\at91lib\peripherals\pio -I .\at91lib\peripherals\pit -I .\at91lib\peripherals\pmc -I .\at91lib\peripherals\tc -I .\at91lib\peripherals\usart -I .\at91lib\usb\common\cdc -I .\at91lib\usb\common\core -I .\at91lib\usb\device\cdc-serial -I .\at91lib\usb\device\core -I .\at91lib\utility -I .\mdio -I .\at91lib\peripherals\pwmc -I .\at91lib\peripherals\spi-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\Inc\Atmel\SAM7S-D__UVISION_VERSION="521" -Dat91sam7s256 -DNOFPUT -DNOASSERT-o .\objects\board_lowlevel.o --omf_browse .\objects\board_lowlevel.crf --depend .\objects\board_lowlevel.d)
+I (at91lib\boards\at91sam7s-ek\board.h)(0x58357190)
+I (C:\Keil_v5\ARM\Inc\Atmel\SAM7S\AT91SAM7S256.H)(0x58256DB3)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E4C36)
+I (at91lib\boards\at91sam7s-ek\board_memories.h)(0x4949FA66)
+I (.\at91lib\peripherals\pmc\pmc.h)(0x4949FA66)
+F (.\at91lib\boards\at91sam7s-ek\board_memories.c)(0x4949FA66)(-c --cpu ARM7TDMI -g -O0 --split_sections -I ..\USB_MDIO -I .\at91lib\boards\at91sam7s-ek -I .\main -I .\at91lib\peripherals\aic -I .\at91lib\peripherals\dbgu -I .\at91lib\peripherals\pio -I .\at91lib\peripherals\pit -I .\at91lib\peripherals\pmc -I .\at91lib\peripherals\tc -I .\at91lib\peripherals\usart -I .\at91lib\usb\common\cdc -I .\at91lib\usb\common\core -I .\at91lib\usb\device\cdc-serial -I .\at91lib\usb\device\core -I .\at91lib\utility -I .\mdio -I .\at91lib\peripherals\pwmc -I .\at91lib\peripherals\spi-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\Inc\Atmel\SAM7S-D__UVISION_VERSION="521" -Dat91sam7s256 -DNOFPUT -DNOASSERT-o .\objects\board_memories.o --omf_browse .\objects\board_memories.crf --depend .\objects\board_memories.d)
+I (at91lib\boards\at91sam7s-ek\board_memories.h)(0x4949FA66)
+I (at91lib\boards\at91sam7s-ek\board.h)(0x58357190)
+I (C:\Keil_v5\ARM\Inc\Atmel\SAM7S\AT91SAM7S256.H)(0x58256DB3)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E4C36)
+F (.\at91lib\peripherals\pwmc\pwmc.c)(0x5821AE49)(-c --cpu ARM7TDMI -g -O0 --split_sections -I ..\USB_MDIO -I .\at91lib\boards\at91sam7s-ek -I .\main -I .\at91lib\peripherals\aic -I .\at91lib\peripherals\dbgu -I .\at91lib\peripherals\pio -I .\at91lib\peripherals\pit -I .\at91lib\peripherals\pmc -I .\at91lib\peripherals\tc -I .\at91lib\peripherals\usart -I .\at91lib\usb\common\cdc -I .\at91lib\usb\common\core -I .\at91lib\usb\device\cdc-serial -I .\at91lib\usb\device\core -I .\at91lib\utility -I .\mdio -I .\at91lib\peripherals\pwmc -I .\at91lib\peripherals\spi-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\Inc\Atmel\SAM7S-D__UVISION_VERSION="521" -Dat91sam7s256 -DNOFPUT -DNOASSERT-o .\objects\pwmc.o --omf_browse .\objects\pwmc.crf --depend .\objects\pwmc.d)
+I (at91lib\peripherals\pwmc\pwmc.h)(0x4949FA32)
+I (.\at91lib\boards\at91sam7s-ek\board.h)(0x58357190)
+I (C:\Keil_v5\ARM\Inc\Atmel\SAM7S\AT91SAM7S256.H)(0x58256DB3)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E4C36)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5816F7E1)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x574E4C36)
+I (.\at91lib\utility\trace.h)(0x5816EDA7)
+I (.\at91lib\peripherals\dbgu\dbgu.h)(0x4949FA66)
+I (.\at91lib\peripherals\pio\pio.h)(0x4949FA66)
+F (.\at91lib\peripherals\spi\spid.c)(0x582A95DD)(-c --cpu ARM7TDMI -g -O0 --split_sections -I ..\USB_MDIO -I .\at91lib\boards\at91sam7s-ek -I .\main -I .\at91lib\peripherals\aic -I .\at91lib\peripherals\dbgu -I .\at91lib\peripherals\pio -I .\at91lib\peripherals\pit -I .\at91lib\peripherals\pmc -I .\at91lib\peripherals\tc -I .\at91lib\peripherals\usart -I .\at91lib\usb\common\cdc -I .\at91lib\usb\common\core -I .\at91lib\usb\device\cdc-serial -I .\at91lib\usb\device\core -I .\at91lib\utility -I .\mdio -I .\at91lib\peripherals\pwmc -I .\at91lib\peripherals\spi-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\Inc\Atmel\SAM7S-D__UVISION_VERSION="521" -Dat91sam7s256 -DNOFPUT -DNOASSERT-o .\objects\spid.o --omf_browse .\objects\spid.crf --depend .\objects\spid.d)
+I (at91lib\peripherals\spi\spid.h)(0x58242381)
+I (.\at91lib\boards\at91sam7s-ek\board.h)(0x58357190)
+I (C:\Keil_v5\ARM\Inc\Atmel\SAM7S\AT91SAM7S256.H)(0x58256DB3)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E4C36)
+F (.\at91lib\usb\common\core\USBConfigurationDescriptor.c)(0x5816FB03)(-c --cpu ARM7TDMI -g -O0 --split_sections -I ..\USB_MDIO -I .\at91lib\boards\at91sam7s-ek -I .\main -I .\at91lib\peripherals\aic -I .\at91lib\peripherals\dbgu -I .\at91lib\peripherals\pio -I .\at91lib\peripherals\pit -I .\at91lib\peripherals\pmc -I .\at91lib\peripherals\tc -I .\at91lib\peripherals\usart -I .\at91lib\usb\common\cdc -I .\at91lib\usb\common\core -I .\at91lib\usb\device\cdc-serial -I .\at91lib\usb\device\core -I .\at91lib\utility -I .\mdio -I .\at91lib\peripherals\pwmc -I .\at91lib\peripherals\spi-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\Inc\Atmel\SAM7S-D__UVISION_VERSION="521" -Dat91sam7s256 -DNOFPUT -DNOASSERT-o .\objects\usbconfigurationdescriptor.o --omf_browse .\objects\usbconfigurationdescriptor.crf --depend .\objects\usbconfigurationdescriptor.d)
+I (at91lib\usb\common\core\USBConfigurationDescriptor.h)(0x4949FA80)
+I (at91lib\usb\common\core\USBGenericDescriptor.h)(0x4949FA80)
+I (at91lib\usb\common\core\USBInterfaceDescriptor.h)(0x4949FA80)
+I (at91lib\usb\common\core\USBEndpointDescriptor.h)(0x4949FA80)
+F (.\at91lib\usb\common\core\USBEndpointDescriptor.c)(0x4949FA80)(-c --cpu ARM7TDMI -g -O0 --split_sections -I ..\USB_MDIO -I .\at91lib\boards\at91sam7s-ek -I .\main -I .\at91lib\peripherals\aic -I .\at91lib\peripherals\dbgu -I .\at91lib\peripherals\pio -I .\at91lib\peripherals\pit -I .\at91lib\peripherals\pmc -I .\at91lib\peripherals\tc -I .\at91lib\peripherals\usart -I .\at91lib\usb\common\cdc -I .\at91lib\usb\common\core -I .\at91lib\usb\device\cdc-serial -I .\at91lib\usb\device\core -I .\at91lib\utility -I .\mdio -I .\at91lib\peripherals\pwmc -I .\at91lib\peripherals\spi-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\Inc\Atmel\SAM7S-D__UVISION_VERSION="521" -Dat91sam7s256 -DNOFPUT -DNOASSERT-o .\objects\usbendpointdescriptor.o --omf_browse .\objects\usbendpointdescriptor.crf --depend .\objects\usbendpointdescriptor.d)
+I (at91lib\usb\common\core\USBEndpointDescriptor.h)(0x4949FA80)
+F (.\at91lib\usb\common\core\USBFeatureRequest.c)(0x4949FA80)(-c --cpu ARM7TDMI -g -O0 --split_sections -I ..\USB_MDIO -I .\at91lib\boards\at91sam7s-ek -I .\main -I .\at91lib\peripherals\aic -I .\at91lib\peripherals\dbgu -I .\at91lib\peripherals\pio -I .\at91lib\peripherals\pit -I .\at91lib\peripherals\pmc -I .\at91lib\peripherals\tc -I .\at91lib\peripherals\usart -I .\at91lib\usb\common\cdc -I .\at91lib\usb\common\core -I .\at91lib\usb\device\cdc-serial -I .\at91lib\usb\device\core -I .\at91lib\utility -I .\mdio -I .\at91lib\peripherals\pwmc -I .\at91lib\peripherals\spi-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\Inc\Atmel\SAM7S-D__UVISION_VERSION="521" -Dat91sam7s256 -DNOFPUT -DNOASSERT-o .\objects\usbfeaturerequest.o --omf_browse .\objects\usbfeaturerequest.crf --depend .\objects\usbfeaturerequest.d)
+I (at91lib\usb\common\core\USBFeatureRequest.h)(0x4949FA80)
+I (at91lib\usb\common\core\USBGenericRequest.h)(0x4949FA80)
+F (.\at91lib\usb\common\core\USBGenericDescriptor.c)(0x4949FA80)(-c --cpu ARM7TDMI -g -O0 --split_sections -I ..\USB_MDIO -I .\at91lib\boards\at91sam7s-ek -I .\main -I .\at91lib\peripherals\aic -I .\at91lib\peripherals\dbgu -I .\at91lib\peripherals\pio -I .\at91lib\peripherals\pit -I .\at91lib\peripherals\pmc -I .\at91lib\peripherals\tc -I .\at91lib\peripherals\usart -I .\at91lib\usb\common\cdc -I .\at91lib\usb\common\core -I .\at91lib\usb\device\cdc-serial -I .\at91lib\usb\device\core -I .\at91lib\utility -I .\mdio -I .\at91lib\peripherals\pwmc -I .\at91lib\peripherals\spi-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\Inc\Atmel\SAM7S-D__UVISION_VERSION="521" -Dat91sam7s256 -DNOFPUT -DNOASSERT-o .\objects\usbgenericdescriptor.o --omf_browse .\objects\usbgenericdescriptor.crf --depend .\objects\usbgenericdescriptor.d)
+I (at91lib\usb\common\core\USBGenericDescriptor.h)(0x4949FA80)
+F (.\at91lib\usb\common\core\USBGenericRequest.c)(0x4949FA80)(-c --cpu ARM7TDMI -g -O0 --split_sections -I ..\USB_MDIO -I .\at91lib\boards\at91sam7s-ek -I .\main -I .\at91lib\peripherals\aic -I .\at91lib\peripherals\dbgu -I .\at91lib\peripherals\pio -I .\at91lib\peripherals\pit -I .\at91lib\peripherals\pmc -I .\at91lib\peripherals\tc -I .\at91lib\peripherals\usart -I .\at91lib\usb\common\cdc -I .\at91lib\usb\common\core -I .\at91lib\usb\device\cdc-serial -I .\at91lib\usb\device\core -I .\at91lib\utility -I .\mdio -I .\at91lib\peripherals\pwmc -I .\at91lib\peripherals\spi-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\Inc\Atmel\SAM7S-D__UVISION_VERSION="521" -Dat91sam7s256 -DNOFPUT -DNOASSERT-o .\objects\usbgenericrequest.o --omf_browse .\objects\usbgenericrequest.crf --depend .\objects\usbgenericrequest.d)
+I (at91lib\usb\common\core\USBGenericRequest.h)(0x4949FA80)
+F (.\at91lib\usb\common\core\USBGetDescriptorRequest.c)(0x4949FA80)(-c --cpu ARM7TDMI -g -O0 --split_sections -I ..\USB_MDIO -I .\at91lib\boards\at91sam7s-ek -I .\main -I .\at91lib\peripherals\aic -I .\at91lib\peripherals\dbgu -I .\at91lib\peripherals\pio -I .\at91lib\peripherals\pit -I .\at91lib\peripherals\pmc -I .\at91lib\peripherals\tc -I .\at91lib\peripherals\usart -I .\at91lib\usb\common\cdc -I .\at91lib\usb\common\core -I .\at91lib\usb\device\cdc-serial -I .\at91lib\usb\device\core -I .\at91lib\utility -I .\mdio -I .\at91lib\peripherals\pwmc -I .\at91lib\peripherals\spi-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\Inc\Atmel\SAM7S-D__UVISION_VERSION="521" -Dat91sam7s256 -DNOFPUT -DNOASSERT-o .\objects\usbgetdescriptorrequest.o --omf_browse .\objects\usbgetdescriptorrequest.crf --depend .\objects\usbgetdescriptorrequest.d)
+I (at91lib\usb\common\core\USBGetDescriptorRequest.h)(0x4949FA80)
+I (at91lib\usb\common\core\USBGenericRequest.h)(0x4949FA80)
+F (.\at91lib\usb\common\core\USBInterfaceRequest.c)(0x4949FA80)(-c --cpu ARM7TDMI -g -O0 --split_sections -I ..\USB_MDIO -I .\at91lib\boards\at91sam7s-ek -I .\main -I .\at91lib\peripherals\aic -I .\at91lib\peripherals\dbgu -I .\at91lib\peripherals\pio -I .\at91lib\peripherals\pit -I .\at91lib\peripherals\pmc -I .\at91lib\peripherals\tc -I .\at91lib\peripherals\usart -I .\at91lib\usb\common\cdc -I .\at91lib\usb\common\core -I .\at91lib\usb\device\cdc-serial -I .\at91lib\usb\device\core -I .\at91lib\utility -I .\mdio -I .\at91lib\peripherals\pwmc -I .\at91lib\peripherals\spi-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\Inc\Atmel\SAM7S-D__UVISION_VERSION="521" -Dat91sam7s256 -DNOFPUT -DNOASSERT-o .\objects\usbinterfacerequest.o --omf_browse .\objects\usbinterfacerequest.crf --depend .\objects\usbinterfacerequest.d)
+I (at91lib\usb\common\core\USBInterfaceRequest.h)(0x4949FA80)
+I (at91lib\usb\common\core\USBGenericRequest.h)(0x4949FA80)
+F (.\at91lib\usb\common\core\USBSetAddressRequest.c)(0x4949FA80)(-c --cpu ARM7TDMI -g -O0 --split_sections -I ..\USB_MDIO -I .\at91lib\boards\at91sam7s-ek -I .\main -I .\at91lib\peripherals\aic -I .\at91lib\peripherals\dbgu -I .\at91lib\peripherals\pio -I .\at91lib\peripherals\pit -I .\at91lib\peripherals\pmc -I .\at91lib\peripherals\tc -I .\at91lib\peripherals\usart -I .\at91lib\usb\common\cdc -I .\at91lib\usb\common\core -I .\at91lib\usb\device\cdc-serial -I .\at91lib\usb\device\core -I .\at91lib\utility -I .\mdio -I .\at91lib\peripherals\pwmc -I .\at91lib\peripherals\spi-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\Inc\Atmel\SAM7S-D__UVISION_VERSION="521" -Dat91sam7s256 -DNOFPUT -DNOASSERT-o .\objects\usbsetaddressrequest.o --omf_browse .\objects\usbsetaddressrequest.crf --depend .\objects\usbsetaddressrequest.d)
+I (at91lib\usb\common\core\USBSetAddressRequest.h)(0x4949FA80)
+I (at91lib\usb\common\core\USBGenericRequest.h)(0x4949FA80)
+F (.\at91lib\usb\common\core\USBSetConfigurationRequest.c)(0x4949FA80)(-c --cpu ARM7TDMI -g -O0 --split_sections -I ..\USB_MDIO -I .\at91lib\boards\at91sam7s-ek -I .\main -I .\at91lib\peripherals\aic -I .\at91lib\peripherals\dbgu -I .\at91lib\peripherals\pio -I .\at91lib\peripherals\pit -I .\at91lib\peripherals\pmc -I .\at91lib\peripherals\tc -I .\at91lib\peripherals\usart -I .\at91lib\usb\common\cdc -I .\at91lib\usb\common\core -I .\at91lib\usb\device\cdc-serial -I .\at91lib\usb\device\core -I .\at91lib\utility -I .\mdio -I .\at91lib\peripherals\pwmc -I .\at91lib\peripherals\spi-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\Inc\Atmel\SAM7S-D__UVISION_VERSION="521" -Dat91sam7s256 -DNOFPUT -DNOASSERT-o .\objects\usbsetconfigurationrequest.o --omf_browse .\objects\usbsetconfigurationrequest.crf --depend .\objects\usbsetconfigurationrequest.d)
+I (at91lib\usb\common\core\USBSetConfigurationRequest.h)(0x4949FA80)
+I (at91lib\usb\common\core\USBGenericRequest.h)(0x4949FA80)
+F (.\at91lib\usb\device\core\USBD_OTGHS.c)(0x4949FA80)(-c --cpu ARM7TDMI -g -O0 --split_sections -I ..\USB_MDIO -I .\at91lib\boards\at91sam7s-ek -I .\main -I .\at91lib\peripherals\aic -I .\at91lib\peripherals\dbgu -I .\at91lib\peripherals\pio -I .\at91lib\peripherals\pit -I .\at91lib\peripherals\pmc -I .\at91lib\peripherals\tc -I .\at91lib\peripherals\usart -I .\at91lib\usb\common\cdc -I .\at91lib\usb\common\core -I .\at91lib\usb\device\cdc-serial -I .\at91lib\usb\device\core -I .\at91lib\utility -I .\mdio -I .\at91lib\peripherals\pwmc -I .\at91lib\peripherals\spi-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\Inc\Atmel\SAM7S-D__UVISION_VERSION="521" -Dat91sam7s256 -DNOFPUT -DNOASSERT-o .\objects\usbd_otghs.o --omf_browse .\objects\usbd_otghs.crf --depend .\objects\usbd_otghs.d)
+I (.\at91lib\boards\at91sam7s-ek\board.h)(0x58357190)
+I (C:\Keil_v5\ARM\Inc\Atmel\SAM7S\AT91SAM7S256.H)(0x58256DB3)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E4C36)
+F (.\at91lib\usb\device\core\USBD_UDP.c)(0x58352995)(-c --cpu ARM7TDMI -g -O0 --split_sections -I ..\USB_MDIO -I .\at91lib\boards\at91sam7s-ek -I .\main -I .\at91lib\peripherals\aic -I .\at91lib\peripherals\dbgu -I .\at91lib\peripherals\pio -I .\at91lib\peripherals\pit -I .\at91lib\peripherals\pmc -I .\at91lib\peripherals\tc -I .\at91lib\peripherals\usart -I .\at91lib\usb\common\cdc -I .\at91lib\usb\common\core -I .\at91lib\usb\device\cdc-serial -I .\at91lib\usb\device\core -I .\at91lib\utility -I .\mdio -I .\at91lib\peripherals\pwmc -I .\at91lib\peripherals\spi-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\Inc\Atmel\SAM7S-D__UVISION_VERSION="521" -Dat91sam7s256 -DNOFPUT -DNOASSERT-o .\objects\usbd_udp.o --omf_browse .\objects\usbd_udp.crf --depend .\objects\usbd_udp.d)
+I (at91lib\usb\device\core\USBD.h)(0x58214831)
+I (.\at91lib\usb\common\core\USBEndpointDescriptor.h)(0x4949FA80)
+I (.\at91lib\usb\common\core\USBGenericRequest.h)(0x4949FA80)
+I (at91lib\usb\device\core\USBDCallbacks.h)(0x5821757D)
+I (.\at91lib\boards\at91sam7s-ek\board.h)(0x58357190)
+I (C:\Keil_v5\ARM\Inc\Atmel\SAM7S\AT91SAM7S256.H)(0x58256DB3)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E4C36)
+I (.\at91lib\peripherals\pio\pio.h)(0x4949FA66)
+I (.\at91lib\utility\trace.h)(0x5816EDA7)
+I (.\at91lib\peripherals\dbgu\dbgu.h)(0x4949FA66)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x574E4C36)
+I (.\at91lib\utility\led.h)(0x4949FA66)
+F (.\at91lib\usb\device\core\USBD_UDPHS.c)(0x58217D01)(-c --cpu ARM7TDMI -g -O0 --split_sections -I ..\USB_MDIO -I .\at91lib\boards\at91sam7s-ek -I .\main -I .\at91lib\peripherals\aic -I .\at91lib\peripherals\dbgu -I .\at91lib\peripherals\pio -I .\at91lib\peripherals\pit -I .\at91lib\peripherals\pmc -I .\at91lib\peripherals\tc -I .\at91lib\peripherals\usart -I .\at91lib\usb\common\cdc -I .\at91lib\usb\common\core -I .\at91lib\usb\device\cdc-serial -I .\at91lib\usb\device\core -I .\at91lib\utility -I .\mdio -I .\at91lib\peripherals\pwmc -I .\at91lib\peripherals\spi-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\Inc\Atmel\SAM7S-D__UVISION_VERSION="521" -Dat91sam7s256 -DNOFPUT -DNOASSERT-o .\objects\usbd_udphs.o --omf_browse .\objects\usbd_udphs.crf --depend .\objects\usbd_udphs.d)
+I (at91lib\usb\device\core\USBD.h)(0x58214831)
+I (.\at91lib\usb\common\core\USBEndpointDescriptor.h)(0x4949FA80)
+I (.\at91lib\usb\common\core\USBGenericRequest.h)(0x4949FA80)
+I (at91lib\usb\device\core\USBDCallbacks.h)(0x5821757D)
+I (at91lib\usb\device\core\USBDDriver.h)(0x58170026)
+I (at91lib\usb\device\core\USBDDriverDescriptors.h)(0x5816EF84)
+I (.\at91lib\usb\common\core\USBDeviceDescriptor.h)(0x4949FA80)
+I (.\at91lib\usb\common\core\USBConfigurationDescriptor.h)(0x4949FA80)
+I (.\at91lib\usb\common\core\USBGenericDescriptor.h)(0x4949FA80)
+I (.\at91lib\usb\common\core\USBInterfaceDescriptor.h)(0x4949FA80)
+I (.\at91lib\usb\common\core\USBDeviceQualifierDescriptor.h)(0x4949FA80)
+I (.\at91lib\boards\at91sam7s-ek\board.h)(0x58357190)
+I (C:\Keil_v5\ARM\Inc\Atmel\SAM7S\AT91SAM7S256.H)(0x58256DB3)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E4C36)
+I (.\at91lib\peripherals\pio\pio.h)(0x4949FA66)
+I (.\at91lib\utility\trace.h)(0x5816EDA7)
+I (.\at91lib\peripherals\dbgu\dbgu.h)(0x4949FA66)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x574E4C36)
+I (.\at91lib\utility\led.h)(0x4949FA66)
+I (.\at91lib\usb\common\core\USBFeatureRequest.h)(0x4949FA80)
+F (.\at91lib\usb\device\core\USBDCallbacks_Initialized.c)(0x581FFD0C)(-c --cpu ARM7TDMI -g -O0 --split_sections -I ..\USB_MDIO -I .\at91lib\boards\at91sam7s-ek -I .\main -I .\at91lib\peripherals\aic -I .\at91lib\peripherals\dbgu -I .\at91lib\peripherals\pio -I .\at91lib\peripherals\pit -I .\at91lib\peripherals\pmc -I .\at91lib\peripherals\tc -I .\at91lib\peripherals\usart -I .\at91lib\usb\common\cdc -I .\at91lib\usb\common\core -I .\at91lib\usb\device\cdc-serial -I .\at91lib\usb\device\core -I .\at91lib\utility -I .\mdio -I .\at91lib\peripherals\pwmc -I .\at91lib\peripherals\spi-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\Inc\Atmel\SAM7S-D__UVISION_VERSION="521" -Dat91sam7s256 -DNOFPUT -DNOASSERT-o .\objects\usbdcallbacks_initialized.o --omf_browse .\objects\usbdcallbacks_initialized.crf --depend .\objects\usbdcallbacks_initialized.d)
+I (at91lib\usb\device\core\USBDCallbacks.h)(0x5821757D)
+I (.\at91lib\usb\common\core\USBGenericRequest.h)(0x4949FA80)
+I (at91lib\usb\device\core\USBD.h)(0x58214831)
+I (.\at91lib\usb\common\core\USBEndpointDescriptor.h)(0x4949FA80)
+I (.\at91lib\boards\at91sam7s-ek\board.h)(0x58357190)
+I (C:\Keil_v5\ARM\Inc\Atmel\SAM7S\AT91SAM7S256.H)(0x58256DB3)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E4C36)
+I (.\at91lib\peripherals\aic\aic.h)(0x5816FDBD)
+F (.\at91lib\usb\device\core\USBDCallbacks_Reset.c)(0x4949FA80)(-c --cpu ARM7TDMI -g -O0 --split_sections -I ..\USB_MDIO -I .\at91lib\boards\at91sam7s-ek -I .\main -I .\at91lib\peripherals\aic -I .\at91lib\peripherals\dbgu -I .\at91lib\peripherals\pio -I .\at91lib\peripherals\pit -I .\at91lib\peripherals\pmc -I .\at91lib\peripherals\tc -I .\at91lib\peripherals\usart -I .\at91lib\usb\common\cdc -I .\at91lib\usb\common\core -I .\at91lib\usb\device\cdc-serial -I .\at91lib\usb\device\core -I .\at91lib\utility -I .\mdio -I .\at91lib\peripherals\pwmc -I .\at91lib\peripherals\spi-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\Inc\Atmel\SAM7S-D__UVISION_VERSION="521" -Dat91sam7s256 -DNOFPUT -DNOASSERT-o .\objects\usbdcallbacks_reset.o --omf_browse .\objects\usbdcallbacks_reset.crf --depend .\objects\usbdcallbacks_reset.d)
+I (at91lib\usb\device\core\USBDCallbacks.h)(0x5821757D)
+I (.\at91lib\usb\common\core\USBGenericRequest.h)(0x4949FA80)
+F (.\at91lib\usb\device\core\USBDDriver.c)(0x58170074)(-c --cpu ARM7TDMI -g -O0 --split_sections -I ..\USB_MDIO -I .\at91lib\boards\at91sam7s-ek -I .\main -I .\at91lib\peripherals\aic -I .\at91lib\peripherals\dbgu -I .\at91lib\peripherals\pio -I .\at91lib\peripherals\pit -I .\at91lib\peripherals\pmc -I .\at91lib\peripherals\tc -I .\at91lib\peripherals\usart -I .\at91lib\usb\common\cdc -I .\at91lib\usb\common\core -I .\at91lib\usb\device\cdc-serial -I .\at91lib\usb\device\core -I .\at91lib\utility -I .\mdio -I .\at91lib\peripherals\pwmc -I .\at91lib\peripherals\spi-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\Inc\Atmel\SAM7S-D__UVISION_VERSION="521" -Dat91sam7s256 -DNOFPUT -DNOASSERT-o .\objects\usbddriver.o --omf_browse .\objects\usbddriver.crf --depend .\objects\usbddriver.d)
+I (at91lib\usb\device\core\USBDDriver.h)(0x58170026)
+I (at91lib\usb\device\core\USBDDriverDescriptors.h)(0x5816EF84)
+I (.\at91lib\usb\common\core\USBDeviceDescriptor.h)(0x4949FA80)
+I (.\at91lib\usb\common\core\USBConfigurationDescriptor.h)(0x4949FA80)
+I (.\at91lib\usb\common\core\USBGenericDescriptor.h)(0x4949FA80)
+I (.\at91lib\usb\common\core\USBInterfaceDescriptor.h)(0x4949FA80)
+I (.\at91lib\usb\common\core\USBEndpointDescriptor.h)(0x4949FA80)
+I (.\at91lib\usb\common\core\USBDeviceQualifierDescriptor.h)(0x4949FA80)
+I (.\at91lib\usb\common\core\USBGenericRequest.h)(0x4949FA80)
+I (at91lib\usb\device\core\USBDDriverCallbacks.h)(0x4949FA80)
+I (at91lib\usb\device\core\USBD.h)(0x58214831)
+I (.\at91lib\boards\at91sam7s-ek\board.h)(0x58357190)
+I (C:\Keil_v5\ARM\Inc\Atmel\SAM7S\AT91SAM7S256.H)(0x58256DB3)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E4C36)
+I (.\at91lib\utility\trace.h)(0x5816EDA7)
+I (.\at91lib\peripherals\dbgu\dbgu.h)(0x4949FA66)
+I (.\at91lib\peripherals\pio\pio.h)(0x4949FA66)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x574E4C36)
+I (.\at91lib\usb\common\core\USBFeatureRequest.h)(0x4949FA80)
+I (.\at91lib\usb\common\core\USBSetAddressRequest.h)(0x4949FA80)
+I (.\at91lib\usb\common\core\USBGetDescriptorRequest.h)(0x4949FA80)
+I (.\at91lib\usb\common\core\USBSetConfigurationRequest.h)(0x4949FA80)
+I (.\at91lib\usb\common\core\USBInterfaceRequest.h)(0x4949FA80)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x574E4C36)
+F (.\at91lib\usb\device\core\USBDDriverCb_CfgChanged.c)(0x58170026)(-c --cpu ARM7TDMI -g -O0 --split_sections -I ..\USB_MDIO -I .\at91lib\boards\at91sam7s-ek -I .\main -I .\at91lib\peripherals\aic -I .\at91lib\peripherals\dbgu -I .\at91lib\peripherals\pio -I .\at91lib\peripherals\pit -I .\at91lib\peripherals\pmc -I .\at91lib\peripherals\tc -I .\at91lib\peripherals\usart -I .\at91lib\usb\common\cdc -I .\at91lib\usb\common\core -I .\at91lib\usb\device\cdc-serial -I .\at91lib\usb\device\core -I .\at91lib\utility -I .\mdio -I .\at91lib\peripherals\pwmc -I .\at91lib\peripherals\spi-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\Inc\Atmel\SAM7S-D__UVISION_VERSION="521" -Dat91sam7s256 -DNOFPUT -DNOASSERT-o .\objects\usbddrivercb_cfgchanged.o --omf_browse .\objects\usbddrivercb_cfgchanged.crf --depend .\objects\usbddrivercb_cfgchanged.d)
+I (at91lib\usb\device\core\USBDDriverCallbacks.h)(0x4949FA80)
+I (.\at91lib\utility\trace.h)(0x5816EDA7)
+I (.\at91lib\boards\at91sam7s-ek\board.h)(0x58357190)
+I (C:\Keil_v5\ARM\Inc\Atmel\SAM7S\AT91SAM7S256.H)(0x58256DB3)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E4C36)
+I (.\at91lib\peripherals\dbgu\dbgu.h)(0x4949FA66)
+I (.\at91lib\peripherals\pio\pio.h)(0x4949FA66)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x574E4C36)
+F (.\at91lib\usb\device\core\USBDDriverCb_IfSettingChanged.c)(0x58170026)(-c --cpu ARM7TDMI -g -O0 --split_sections -I ..\USB_MDIO -I .\at91lib\boards\at91sam7s-ek -I .\main -I .\at91lib\peripherals\aic -I .\at91lib\peripherals\dbgu -I .\at91lib\peripherals\pio -I .\at91lib\peripherals\pit -I .\at91lib\peripherals\pmc -I .\at91lib\peripherals\tc -I .\at91lib\peripherals\usart -I .\at91lib\usb\common\cdc -I .\at91lib\usb\common\core -I .\at91lib\usb\device\cdc-serial -I .\at91lib\usb\device\core -I .\at91lib\utility -I .\mdio -I .\at91lib\peripherals\pwmc -I .\at91lib\peripherals\spi-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\Inc\Atmel\SAM7S-D__UVISION_VERSION="521" -Dat91sam7s256 -DNOFPUT -DNOASSERT-o .\objects\usbddrivercb_ifsettingchanged.o --omf_browse .\objects\usbddrivercb_ifsettingchanged.crf --depend .\objects\usbddrivercb_ifsettingchanged.d)
+I (at91lib\usb\device\core\USBDDriverCallbacks.h)(0x4949FA80)
+I (.\at91lib\utility\trace.h)(0x5816EDA7)
+I (.\at91lib\boards\at91sam7s-ek\board.h)(0x58357190)
+I (C:\Keil_v5\ARM\Inc\Atmel\SAM7S\AT91SAM7S256.H)(0x58256DB3)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E4C36)
+I (.\at91lib\peripherals\dbgu\dbgu.h)(0x4949FA66)
+I (.\at91lib\peripherals\pio\pio.h)(0x4949FA66)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x574E4C36)
+F (.\at91lib\usb\common\cdc\CDCLineCoding.c)(0x58170026)(-c --cpu ARM7TDMI -g -O0 --split_sections -I ..\USB_MDIO -I .\at91lib\boards\at91sam7s-ek -I .\main -I .\at91lib\peripherals\aic -I .\at91lib\peripherals\dbgu -I .\at91lib\peripherals\pio -I .\at91lib\peripherals\pit -I .\at91lib\peripherals\pmc -I .\at91lib\peripherals\tc -I .\at91lib\peripherals\usart -I .\at91lib\usb\common\cdc -I .\at91lib\usb\common\core -I .\at91lib\usb\device\cdc-serial -I .\at91lib\usb\device\core -I .\at91lib\utility -I .\mdio -I .\at91lib\peripherals\pwmc -I .\at91lib\peripherals\spi-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\Inc\Atmel\SAM7S-D__UVISION_VERSION="521" -Dat91sam7s256 -DNOFPUT -DNOASSERT-o .\objects\cdclinecoding.o --omf_browse .\objects\cdclinecoding.crf --depend .\objects\cdclinecoding.d)
+I (at91lib\usb\common\cdc\CDCLineCoding.h)(0x4949FA80)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5816F7E1)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x574E4C36)
+I (.\at91lib\utility\trace.h)(0x5816EDA7)
+I (.\at91lib\boards\at91sam7s-ek\board.h)(0x58357190)
+I (C:\Keil_v5\ARM\Inc\Atmel\SAM7S\AT91SAM7S256.H)(0x58256DB3)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E4C36)
+I (.\at91lib\peripherals\dbgu\dbgu.h)(0x4949FA66)
+I (.\at91lib\peripherals\pio\pio.h)(0x4949FA66)
+F (.\at91lib\usb\common\cdc\CDCSetControlLineStateRequest.c)(0x4949FA80)(-c --cpu ARM7TDMI -g -O0 --split_sections -I ..\USB_MDIO -I .\at91lib\boards\at91sam7s-ek -I .\main -I .\at91lib\peripherals\aic -I .\at91lib\peripherals\dbgu -I .\at91lib\peripherals\pio -I .\at91lib\peripherals\pit -I .\at91lib\peripherals\pmc -I .\at91lib\peripherals\tc -I .\at91lib\peripherals\usart -I .\at91lib\usb\common\cdc -I .\at91lib\usb\common\core -I .\at91lib\usb\device\cdc-serial -I .\at91lib\usb\device\core -I .\at91lib\utility -I .\mdio -I .\at91lib\peripherals\pwmc -I .\at91lib\peripherals\spi-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\Inc\Atmel\SAM7S-D__UVISION_VERSION="521" -Dat91sam7s256 -DNOFPUT -DNOASSERT-o .\objects\cdcsetcontrollinestaterequest.o --omf_browse .\objects\cdcsetcontrollinestaterequest.crf --depend .\objects\cdcsetcontrollinestaterequest.d)
+I (at91lib\usb\common\cdc\CDCSetControlLineStateRequest.h)(0x58170026)
+I (.\at91lib\usb\common\core\USBGenericRequest.h)(0x4949FA80)
+F (.\at91lib\usb\device\cdc-serial\CDCDSerialDriver.c)(0x58218C2A)(-c --cpu ARM7TDMI -g -O0 --split_sections -I ..\USB_MDIO -I .\at91lib\boards\at91sam7s-ek -I .\main -I .\at91lib\peripherals\aic -I .\at91lib\peripherals\dbgu -I .\at91lib\peripherals\pio -I .\at91lib\peripherals\pit -I .\at91lib\peripherals\pmc -I .\at91lib\peripherals\tc -I .\at91lib\peripherals\usart -I .\at91lib\usb\common\cdc -I .\at91lib\usb\common\core -I .\at91lib\usb\device\cdc-serial -I .\at91lib\usb\device\core -I .\at91lib\utility -I .\mdio -I .\at91lib\peripherals\pwmc -I .\at91lib\peripherals\spi-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\Inc\Atmel\SAM7S-D__UVISION_VERSION="521" -Dat91sam7s256 -DNOFPUT -DNOASSERT-o .\objects\cdcdserialdriver.o --omf_browse .\objects\cdcdserialdriver.crf --depend .\objects\cdcdserialdriver.d)
+I (at91lib\usb\device\cdc-serial\CDCDSerialDriver.h)(0x58170B58)
+I (.\at91lib\usb\common\core\USBGenericRequest.h)(0x4949FA80)
+I (.\at91lib\usb\device\core\USBD.h)(0x58214831)
+I (.\at91lib\usb\common\core\USBEndpointDescriptor.h)(0x4949FA80)
+I (at91lib\usb\device\cdc-serial\CDCDSerialDriverDescriptors.h)(0x5816EF65)
+I (.\at91lib\usb\device\core\USBDDriverDescriptors.h)(0x5816EF84)
+I (.\at91lib\usb\common\core\USBDeviceDescriptor.h)(0x4949FA80)
+I (.\at91lib\usb\common\core\USBConfigurationDescriptor.h)(0x4949FA80)
+I (.\at91lib\usb\common\core\USBGenericDescriptor.h)(0x4949FA80)
+I (.\at91lib\usb\common\core\USBInterfaceDescriptor.h)(0x4949FA80)
+I (.\at91lib\usb\common\core\USBDeviceQualifierDescriptor.h)(0x4949FA80)
+I (.\at91lib\utility\trace.h)(0x5816EDA7)
+I (.\at91lib\boards\at91sam7s-ek\board.h)(0x58357190)
+I (C:\Keil_v5\ARM\Inc\Atmel\SAM7S\AT91SAM7S256.H)(0x58256DB3)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E4C36)
+I (.\at91lib\peripherals\dbgu\dbgu.h)(0x4949FA66)
+I (.\at91lib\peripherals\pio\pio.h)(0x4949FA66)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x574E4C36)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5816F7E1)
+I (.\at91lib\usb\device\core\USBDDriver.h)(0x58170026)
+I (.\at91lib\usb\common\cdc\CDCLineCoding.h)(0x4949FA80)
+I (.\at91lib\usb\common\cdc\CDCGenericRequest.h)(0x4949FA80)
+I (.\at91lib\usb\common\cdc\CDCSetControlLineStateRequest.h)(0x58170026)
+I (.\at91lib\peripherals\usart\usart.h)(0x4949FA80)
+F (.\at91lib\usb\device\cdc-serial\CDCDSerialDriverDescriptors.c)(0x5817047F)(-c --cpu ARM7TDMI -g -O0 --split_sections -I ..\USB_MDIO -I .\at91lib\boards\at91sam7s-ek -I .\main -I .\at91lib\peripherals\aic -I .\at91lib\peripherals\dbgu -I .\at91lib\peripherals\pio -I .\at91lib\peripherals\pit -I .\at91lib\peripherals\pmc -I .\at91lib\peripherals\tc -I .\at91lib\peripherals\usart -I .\at91lib\usb\common\cdc -I .\at91lib\usb\common\core -I .\at91lib\usb\device\cdc-serial -I .\at91lib\usb\device\core -I .\at91lib\utility -I .\mdio -I .\at91lib\peripherals\pwmc -I .\at91lib\peripherals\spi-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\Inc\Atmel\SAM7S-D__UVISION_VERSION="521" -Dat91sam7s256 -DNOFPUT -DNOASSERT-o .\objects\cdcdserialdriverdescriptors.o --omf_browse .\objects\cdcdserialdriverdescriptors.crf --depend .\objects\cdcdserialdriverdescriptors.d)
+I (at91lib\usb\device\cdc-serial\CDCDSerialDriverDescriptors.h)(0x5816EF65)
+I (.\at91lib\usb\device\core\USBDDriverDescriptors.h)(0x5816EF84)
+I (.\at91lib\usb\common\core\USBDeviceDescriptor.h)(0x4949FA80)
+I (.\at91lib\usb\common\core\USBConfigurationDescriptor.h)(0x4949FA80)
+I (.\at91lib\usb\common\core\USBGenericDescriptor.h)(0x4949FA80)
+I (.\at91lib\usb\common\core\USBInterfaceDescriptor.h)(0x4949FA80)
+I (.\at91lib\usb\common\core\USBEndpointDescriptor.h)(0x4949FA80)
+I (.\at91lib\usb\common\core\USBDeviceQualifierDescriptor.h)(0x4949FA80)
+I (.\at91lib\boards\at91sam7s-ek\board.h)(0x58357190)
+I (C:\Keil_v5\ARM\Inc\Atmel\SAM7S\AT91SAM7S256.H)(0x58256DB3)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E4C36)
+I (.\at91lib\usb\common\core\USBStringDescriptor.h)(0x4949FA80)
+I (.\at91lib\usb\common\core\USBGenericRequest.h)(0x4949FA80)
+I (.\at91lib\usb\common\cdc\CDCGenericDescriptor.h)(0x4949FA80)
+I (.\at91lib\usb\common\cdc\CDCDeviceDescriptor.h)(0x4949FA80)
+I (.\at91lib\usb\common\cdc\CDCCommunicationInterfaceDescriptor.h)(0x4949FA80)
+I (.\at91lib\usb\common\cdc\CDCDataInterfaceDescriptor.h)(0x4949FA80)
+I (.\at91lib\usb\common\cdc\CDCHeaderDescriptor.h)(0x4949FA80)
+I (.\at91lib\usb\common\cdc\CDCCallManagementDescriptor.h)(0x4949FA80)
+I (.\at91lib\usb\common\cdc\CDCAbstractControlManagementDescriptor.h)(0x4949FA80)
+I (.\at91lib\usb\common\cdc\CDCUnionDescriptor.h)(0x4949FA80)
+F (.\mdio\mdio_drv.c)(0x584E33C0)(-c --cpu ARM7TDMI -g -O0 --split_sections -I ..\USB_MDIO -I .\at91lib\boards\at91sam7s-ek -I .\main -I .\at91lib\peripherals\aic -I .\at91lib\peripherals\dbgu -I .\at91lib\peripherals\pio -I .\at91lib\peripherals\pit -I .\at91lib\peripherals\pmc -I .\at91lib\peripherals\tc -I .\at91lib\peripherals\usart -I .\at91lib\usb\common\cdc -I .\at91lib\usb\common\core -I .\at91lib\usb\device\cdc-serial -I .\at91lib\usb\device\core -I .\at91lib\utility -I .\mdio -I .\at91lib\peripherals\pwmc -I .\at91lib\peripherals\spi-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\Inc\Atmel\SAM7S-D__UVISION_VERSION="521" -Dat91sam7s256 -DNOFPUT -DNOASSERT-o .\objects\mdio_drv.o --omf_browse .\objects\mdio_drv.crf --depend .\objects\mdio_drv.d)
+I (.\mdio\mdio_drv.h)(0x584E24FC)
+I (.\at91lib\boards\at91sam7s-ek\board.h)(0x58357190)
+I (C:\Keil_v5\ARM\Inc\Atmel\SAM7S\AT91SAM7S256.H)(0x58256DB3)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E4C36)
+I (.\at91lib\peripherals\pio\pio.h)(0x4949FA66)

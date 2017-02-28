@@ -1,0 +1,9 @@
+.\objects\usbdcallbacks_initialized.o: at91lib\usb\device\core\USBDCallbacks_Initialized.c
+.\objects\usbdcallbacks_initialized.o: at91lib\usb\device\core\USBDCallbacks.h
+.\objects\usbdcallbacks_initialized.o: .\at91lib\usb\common\core\USBGenericRequest.h
+.\objects\usbdcallbacks_initialized.o: at91lib\usb\device\core\USBD.h
+.\objects\usbdcallbacks_initialized.o: .\at91lib\usb\common\core\USBEndpointDescriptor.h
+.\objects\usbdcallbacks_initialized.o: .\at91lib\boards\at91sam7s-ek\board.h
+.\objects\usbdcallbacks_initialized.o: C:\Keil_v5\ARM\Inc\Atmel\SAM7S\AT91SAM7S256.H
+.\objects\usbdcallbacks_initialized.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\usbdcallbacks_initialized.o: .\at91lib\peripherals\aic\aic.h
